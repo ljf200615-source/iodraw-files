@@ -55,8 +55,8 @@
             <mxPoint x="450" y="422" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KGPKsST5Id2kSFjNNzxP-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.5904456610587596;endAngle=0.875;" vertex="1" parent="1">
-          <mxGeometry x="210" y="570" width="100" height="100" as="geometry" />
+        <mxCell id="KGPKsST5Id2kSFjNNzxP-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.5904456610587596;endAngle=0.875;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
