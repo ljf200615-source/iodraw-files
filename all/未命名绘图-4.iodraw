@@ -82,13 +82,13 @@
             <mxPoint x="220" y="346" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KGPKsST5Id2kSFjNNzxP-22" value="&lt;font style=&quot;font-size: 22px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;i&gt;h&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KGPKsST5Id2kSFjNNzxP-22" value="&lt;font size=&quot;1&quot; style=&quot;&quot; face=&quot;Times New Roman&quot;&gt;&lt;i style=&quot;font-size: 24px;&quot;&gt;h&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KGPKsST5Id2kSFjNNzxP-23" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;i&gt;θ&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KGPKsST5Id2kSFjNNzxP-23" value="&lt;font size=&quot;1&quot; face=&quot;Times New Roman&quot;&gt;&lt;i style=&quot;font-size: 24px;&quot;&gt;θ&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KGPKsST5Id2kSFjNNzxP-24" value="&lt;font style=&quot;font-size: 22px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;i&gt;l&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KGPKsST5Id2kSFjNNzxP-24" value="&lt;font size=&quot;1&quot; style=&quot;&quot; face=&quot;Times New Roman&quot;&gt;&lt;i style=&quot;font-size: 24px;&quot;&gt;l&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
