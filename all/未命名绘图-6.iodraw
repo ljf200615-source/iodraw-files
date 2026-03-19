@@ -1,0 +1,91 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="oUJ5gT34SldQGcPCnpNP">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sedWwagKDSRfcMU7L-7u-1" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 20px;&quot;&gt;电梯运行至目标楼层附近/处理单元接收到电梯运行目标楼层信号&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="190" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-2" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 20px;&quot;&gt;步进电机旋转接触杠至检测初始位置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="300" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-3" value="&lt;font face=&quot;宋体&quot; style=&quot;font-size: 20px;&quot;&gt;电梯轿厢停稳过程中推动接触杠发生旋转&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3B%E5%AE%8B%E4%BD%93%26quot%3B%20style%3D%26quot%3Bfont-size%3A%2020px%3B%26quot%3B%26gt%3B%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%8E%A5%E8%A7%A6%E6%9D%A0%E8%87%B3%E6%A3%80%E6%B5%8B%E5%88%9D%E5%A7%8B%E4%BD%8D%E7%BD%AE%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22235%22%20y%3D%22320%22%20width%3D%22270%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="410" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;角位移传感器获取&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;θ&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;角度&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="520" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-5" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;处理单元进行滤波、去噪、线性修正&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="630" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;带入标定距离&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;h&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;和修正角度&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;θ&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;计算平层高度差&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Δh&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="235" y="740" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;宋体&quot;&gt;判断&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Times New Roman&quot;&gt;Δh&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;宋体&quot;&gt;是否在&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Times New Roman&quot;&gt;±&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;宋体&quot;&gt;标准范围内&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="850" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-8" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;无需处理&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="297.5" y="990" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-9" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;报警装置启动，发出声光警报，提示检修&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="865" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="sedWwagKDSRfcMU7L-7u-1" target="sedWwagKDSRfcMU7L-7u-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="720" as="sourcePoint" />
+            <mxPoint x="660" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369.33" y="370" as="sourcePoint" />
+            <mxPoint x="369.33" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="sedWwagKDSRfcMU7L-7u-3" target="sedWwagKDSRfcMU7L-7u-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sedWwagKDSRfcMU7L-7u-4" target="sedWwagKDSRfcMU7L-7u-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sedWwagKDSRfcMU7L-7u-5" target="sedWwagKDSRfcMU7L-7u-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="600" as="sourcePoint" />
+            <mxPoint x="380" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sedWwagKDSRfcMU7L-7u-6" target="sedWwagKDSRfcMU7L-7u-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="390" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sedWwagKDSRfcMU7L-7u-7" target="sedWwagKDSRfcMU7L-7u-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="820" as="sourcePoint" />
+            <mxPoint x="380" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sedWwagKDSRfcMU7L-7u-7" target="sedWwagKDSRfcMU7L-7u-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="830" as="sourcePoint" />
+            <mxPoint x="390" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="316" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sedWwagKDSRfcMU7L-7u-19" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;N&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="865" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
